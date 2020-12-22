@@ -1,11 +1,11 @@
 package curso.spring.petclinic.services.map;
 
 import curso.spring.petclinic.model.Veterinario;
-import curso.spring.petclinic.services.CrudService;
+import curso.spring.petclinic.services.VeterinarioService;
 
 import java.util.Set;
 
-public class VeterinarioServiceMap extends AbstractServiceMap<Veterinario, Long> implements CrudService<Veterinario, Long> {
+public class VeterinarioServiceMap extends AbstractServiceMap<Veterinario, Long> implements VeterinarioService {
 
     @Override
     public Set<Veterinario> findAll() {

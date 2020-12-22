@@ -1,11 +1,11 @@
 package curso.spring.petclinic.services.map;
 
 import curso.spring.petclinic.model.AnimalEstimacao;
-import curso.spring.petclinic.services.CrudService;
+import curso.spring.petclinic.services.AnimalEstimacaoService;
 
 import java.util.Set;
 
-public class AnimalEstimacaoServiceMap extends AbstractServiceMap<AnimalEstimacao, Long> implements CrudService<AnimalEstimacao, Long> {
+public class AnimalEstimacaoServiceMap extends AbstractServiceMap<AnimalEstimacao, Long> implements AnimalEstimacaoService {
 
     @Override
     public Set<AnimalEstimacao> findAll() {
